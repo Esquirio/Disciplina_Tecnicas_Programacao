@@ -7,10 +7,10 @@ int main(){
   printf("Digite uma tecla: ");
   scanf(" %c", &ch);
 
-  // Testa se está na faixa de maiusculas
+  // Testa se é letra
   if(isalpha(ch))
     printf("Voce digitou uma letra!\n");
-  // Testa se está na faixa de minusculas
+  // Testa se é dígito
   else if(isdigit(ch))
     printf("Voce digitou um digito!\n");
   else
