@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598739218 source:c:\users\bigode\onedrive\documents\anhembi\2020-2\aula_02_revisao_estrut_controle\projeto_11_digito_letra\main.c
+	<stdio.h>
+	<ctype.h>
+
