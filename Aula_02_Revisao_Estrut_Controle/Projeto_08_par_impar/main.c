@@ -1,42 +1,23 @@
-#include <stdio.h>  // Funções de I/O, etc.
-#include <locale.h> // Mudar idioma
-/* Funcão: main() */
+#include <stdio.h> // Funções de I/O, etc.
+
 int main(){
-  char oper;
-  // Configura a língua portuguesa
-  setlocale(LC_ALL, "Portuguese");
-  printf("Digite um sinal de operação matemático: ");
-  scanf(" %c", &oper);
-  // Testa a operação
-  switch(oper){
-  case '+':
-    printf("Sinal de adição!\n");
-    break;
-  case '-':
-    printf("Sinal de subtração!\n");
-    break;
-  case '*':
-    printf("Sinal de multiplicação!\n");
-    break;
-  case '/':
-    printf("Sinal de divisão!\n");
-    break;
-  default:
-    printf("Outra operação matemática!\n");
-    break;
-  }// Fim do switch
-  return 0;
+  int num; // Declaração da variável
+  // Mensagem para o usuário
+  printf("Digite um numero: ");
+  scanf("%d", &num);
+  // Verificar se é par ou ímpar
+  if (!(num%2))
+    printf("O numero %d eh par.\n", num);
+  else
+    printf("O numero %d eh impar.\n", num);
+  return 0; // Retorna um valor inteiro
 }// Fim da função main()
 
-/* Exercício 2A
-  if(oper == '+')
-    printf("Sinal de adição!\n");
-  else if(oper == '-')
-    printf("Sinal de subtração!\n");
-  else if(oper == '*')
-    printf("Sinal de multiplicação!\n");
-  else if(oper == '/')
-    printf("Sinal de divisão!\n");
-  else
-    printf("Outra operação matemática!\n");
+/*
+  if (num%2 == 0){
+    printf("O numero %d eh par.\n", num);
+  }// Fim do if
+  else{
+    printf("O numero %d eh impar.\n", num);
+  }// Fim do else
 */
