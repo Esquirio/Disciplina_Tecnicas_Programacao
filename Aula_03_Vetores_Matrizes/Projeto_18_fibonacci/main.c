@@ -1,11 +1,13 @@
-#include <stdio.h> // Funções de I/O, etc.
+#include <stdio.h>   // Funções de I/O, etc.
 #define TAMANHO 100  // Define o tamanho do vetor
 /* Funcão: main() */
-int main(){
-  int size = 0, controle = 0, vetor[100];
+int main()
+{
+  double vetor[100];
+  int size = 0, controle = 0;
   vetor[0] = 1; // Primeiro elemento da sequencia de fibo
   vetor[1] = 1; // Segundo elemento da sequencia de fibo
-  // Lê quantidade de elementos da sequencia
+
   do{
     printf("***** Sequencia de Fibonacci *****\n\n");
     printf("Entre 1 a 100,\n");
@@ -22,10 +24,11 @@ int main(){
 
   printf("Sequencia de Fibonacci: ");
   for(int i = 0; i <= size-1; i++){
-    printf("%d", vetor[i]);
+    printf("%.0f", vetor[i]);
     if (i != (size-1))
       printf(", ");
   }// Fim do for
   printf("\n\n");
+
   return 0;
 }// Fim da funcao main()
