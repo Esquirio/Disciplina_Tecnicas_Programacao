@@ -1,0 +1,10 @@
+#include <stdio.h> // Funções de I/O, etc.
+/* Funcão: main() */
+int main()
+{
+  char nome [100];
+  printf("\nDigite o nome: ");
+  scanf("%[^\n]",nome); // Lê string com scanf
+  printf("%s",nome);
+  return 0;
+}// Fim da função main()
