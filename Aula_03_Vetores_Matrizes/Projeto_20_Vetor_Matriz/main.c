@@ -17,7 +17,7 @@ int main()
   // Calculando Matriz
   for(int i=0; i<TAM; i++){
     matriz[i][0] = vetor_1[i]*2;
-    matriz[i][1] = vetor_1[i]-5;
+    matriz[i][1] = vetor_2[i]-5;
   }// Fim do for(int i=0; i<TAM; i++)
   //Imprimindo resultado
   printf("\n\nElementos do vetor 1:\n");
