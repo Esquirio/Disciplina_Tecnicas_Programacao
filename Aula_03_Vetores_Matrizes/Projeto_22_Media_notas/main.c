@@ -9,7 +9,7 @@ int main()
   printf("Digite as notas:\n");
   for(int i=0; i<ML; i++){
     for(int j=0; j<MC-1; j++){
-      printf("Nota %d do aluno %d: ", i, j);
+      printf("Nota %d do aluno %d: ", j, i);
       scanf("%f", &mat[i][j]);
       media+=mat[i][j];
     }// Fim do for(int j=0; j<MC-1; j++)
