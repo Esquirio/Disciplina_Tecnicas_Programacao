@@ -8,6 +8,7 @@ int main()
   // Leitura das notas
   printf("Digite as notas:\n");
   for(int i=0; i<ML; i++){
+		media=0;
     for(int j=0; j<MC-1; j++){
       printf("Nota %d do aluno %d: ", j, i);
       scanf("%f", &mat[i][j]);
