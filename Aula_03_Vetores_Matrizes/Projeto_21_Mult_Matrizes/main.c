@@ -7,7 +7,7 @@
 int main()
 {
   float mat_a[M1L][M1C]={{.5,.5,.5},{.5,.5,.5}};
-  float mat_b[M2L][M2C]={{2,2,2},{2,2,2}};
+  float mat_b[M2L][M2C]={{2,2},{2,2},{2,2}};
   float mat_c[M1L][M2C];
   int somaprod = 0, lin, col;
   // Multiplicação de Matrizes
