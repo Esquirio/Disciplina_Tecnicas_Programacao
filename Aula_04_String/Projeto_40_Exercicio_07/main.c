@@ -7,8 +7,12 @@ int main(){
   gets(string_01); //Lê a string
   printf("Digite um caractere: ");
   ch = getchar();
-  while(!(string_01[i]==ch))
-      i++;
+  while(!(string_01[i]==ch)){
+    i++;
+    if(string_01[i]=='\0'){
+      break;
+    }// Fim do if
+  }// Fim while
   printf("\nO caractere %c aparece na posicao %d.\n", ch, i);
   return 0;
 }//Fim da função main()
