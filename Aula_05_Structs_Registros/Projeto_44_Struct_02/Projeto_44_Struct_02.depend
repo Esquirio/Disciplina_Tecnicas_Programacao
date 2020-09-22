@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600048983 source:c:\users\bigode\onedrive\documents\anhembi\tp\2020-2\aula_05_structs_registros\projeto_44_struct_02\main.c
+	<stdio.h>
+	<string.h>
+
