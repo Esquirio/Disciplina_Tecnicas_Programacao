@@ -25,3 +25,9 @@ int main(){
   return 0;
 }// Fim da função main()
 
+/* // outra forma
+for(int i=tam[0]; i < tam[0]+tam[1]; i++){
+  string_01[i]= string_02[i - tam[0]];
+}
+*/
+
