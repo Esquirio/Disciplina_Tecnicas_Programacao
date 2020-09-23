@@ -1,5 +1,5 @@
 #include <stdio.h>  // Funções de I/O
-#include <string.h> // FunçÕes string
+#include <string.h> // Funções string
 /* Função main() */
 int main(){
   struct Aluno       //Início da definição da estrutura
