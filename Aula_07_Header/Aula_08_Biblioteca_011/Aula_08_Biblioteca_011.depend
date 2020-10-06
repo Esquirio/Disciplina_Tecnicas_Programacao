@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1587041250 source:c:\users\esqui\onedrive\documents\anhembi\aula_08_biblioteca_011\main.c
+	<stdio.h>
+	"minha_biblioteca.h"
+
+1587041580 c:\users\esqui\onedrive\documents\anhembi\aula_08_biblioteca_011\minha_biblioteca.h
+
+1587041723 source:c:\users\esqui\onedrive\documents\anhembi\aula_08_biblioteca_011\minha_biblioteca.c
+	"minha_biblioteca.h"
+

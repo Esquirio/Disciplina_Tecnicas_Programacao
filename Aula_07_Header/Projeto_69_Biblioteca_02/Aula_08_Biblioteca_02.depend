@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1587043776 source:c:\users\esqui\onedrive\documents\anhembi\aula_08_biblioteca_02\main.c
+	<stdio.h>
+	"converte_temp.h"
+
+1587043323 c:\users\esqui\onedrive\documents\anhembi\aula_08_biblioteca_02\converte_temp.h
+
+1587043790 source:c:\users\esqui\onedrive\documents\anhembi\aula_08_biblioteca_02\converte_temp.c
+	"converte_temp.h"
+

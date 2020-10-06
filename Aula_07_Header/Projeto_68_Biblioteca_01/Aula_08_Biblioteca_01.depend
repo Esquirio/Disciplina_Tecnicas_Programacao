@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1587003179 source:c:\users\bigode\onedrive\documents\anhembi\aula_08_biblioteca_01\main.c
+	<stdio.h>
+	"minha_bibli.h"
+
+1587003366 c:\users\bigode\onedrive\documents\anhembi\aula_08_biblioteca_01\minha_bibli.h
+
