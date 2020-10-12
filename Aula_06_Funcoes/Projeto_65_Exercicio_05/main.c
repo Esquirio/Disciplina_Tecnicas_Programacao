@@ -4,7 +4,7 @@ int Pares(int n);
 //Funcao int main()
 int main()
 {
-    int num, result = 0;
+    int num = 0, result = 0;
     printf("Digite um numero inteiro: ");
     scanf("%d", &num);
     result = Pares(num);

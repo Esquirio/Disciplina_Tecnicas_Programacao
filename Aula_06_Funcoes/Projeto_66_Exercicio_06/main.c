@@ -3,7 +3,7 @@
 int Menor(int n1, int n2);
 //Funcao int main()
 int main(){
-    int num1, num2, result;
+    int num1 = 0, num2 = 0, result = 0;
     printf("Digite um numero: ");
     scanf("%d", &num1);
     printf("Digite outro numero: ");

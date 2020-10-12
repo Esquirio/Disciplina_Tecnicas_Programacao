@@ -3,8 +3,8 @@
 float Calcula(float n1, float n2, char op);
 
 int main(){
-    float num1, num2, result;
-    char oper;
+    float num1 = 0.0, num2 = 0.0, result = 0.0;
+    char oper = ' ';
     printf("Digite um numero: ");
     scanf("%f", &num1);
     printf("Digite outro numero: ");
@@ -17,7 +17,7 @@ int main(){
 }//Fim da funcao main()
 //Funcao float calcula()
 float Calcula(float n1, float n2, char op){
-    float resultado;
+    float resultado = 0.0;
     switch(op){
         case '+':
             resultado = n1+n2;

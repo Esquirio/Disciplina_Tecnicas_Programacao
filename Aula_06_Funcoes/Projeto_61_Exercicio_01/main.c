@@ -4,7 +4,7 @@ float Desconto(float valor, float desc);
 
 int main()
 {
-    float preco, descont;
+    float preco = 0.0, descont = 0.0;
     printf("Digite o preço do produto: ");
     scanf("%f", &preco);
     printf("Digite o desconto: ");

@@ -3,7 +3,7 @@
 void Fibonacci(int n);
 //Funcao main()
 int main(){
-    int num;
+    int num = 0;
     printf("Digite um numero inteiro: ");
     scanf("%d", &num);
     Fibonacci(num);
@@ -11,7 +11,7 @@ int main(){
 }//Fim da main()
 //Funcao Fibonacci()
 void Fibonacci(int n){
-    int fib_n1 = 1, fib_n2 = 1, aux;
+    int fib_n1 = 1, fib_n2 = 1, aux = 0;
     if (n == 1)
         printf("Sequencia de Fibonacci eh: %d ", fib_n1);
     else{
