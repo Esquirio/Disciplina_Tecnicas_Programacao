@@ -28,3 +28,4 @@ int main()
   }//Fim do if(*pt_01 == *pt_02)
   return 0;
 }//Fim da funcao main()
+

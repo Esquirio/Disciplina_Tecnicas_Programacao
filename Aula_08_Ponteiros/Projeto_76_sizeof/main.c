@@ -10,7 +10,7 @@ int main (){
   printf(" float ......: %d bytes\n", sizeof(float));
   printf(" double......: %d bytes\n", sizeof(double));
   printf(" long double.: %d bytes\n\n", sizeof(long double));
-  printf("\nO tamanho de vteste e': %d \n\n",sizeof vteste);
+  printf("\nO tamanho de vteste e': %d \n\n", sizeof(vteste));
   return(0);
-}
+}// Fim da funcao main()
 

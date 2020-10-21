@@ -9,9 +9,10 @@ int main()
   printf("Valores originais:\n");
   printf("px eh %p, py eh %p. \n", px, py);
   px = px + 10;    //10 enderecos de 4 bytes
-  py += 2;         // 2 enderecos de 2 bytes
+  py += 2;         // 2 enderecos de 4 bytes
   printf("\nValores finais:\n");
   printf("px eh %p, py eh %p. \n", px, py);
+  printf("*px eh %d, *py eh %d. \n", *px, *py);
   return 0;
 }
 
