@@ -3,8 +3,8 @@
 double Fatorial(int n);
 //Funcao main()
 int main(void) {
-  int numero;
-  double f;
+  int numero = 0;
+  double f = 0.0;
   printf("\nDigite o numero que deseja calcular o fatorial: ");
   scanf("%d",&numero);
   //chamada da função Fatorial

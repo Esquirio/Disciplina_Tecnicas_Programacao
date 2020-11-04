@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588854380 source:c:\users\esqui\onedrive\documents\anhembi\aula_10_ponteiros_vet_08\main.c
+	<stdio.h>
+	<string.h>
+

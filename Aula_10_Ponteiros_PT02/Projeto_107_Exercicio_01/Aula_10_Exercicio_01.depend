@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1589381788 source:c:\users\bigode\onedrive\documents\games\aula_10_exercicio_01\main.c
+	<stdio.h>
+	<stdlib.h>
+

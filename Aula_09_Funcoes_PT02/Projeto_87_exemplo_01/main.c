@@ -1,5 +1,5 @@
 #include <stdio.h>
-void Troca(int, int); //protótipo
+void Troca(int x, int y); //protótipo
 int main()
 {
    int a = 5, b = 1;

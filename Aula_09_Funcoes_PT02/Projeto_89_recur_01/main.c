@@ -2,8 +2,6 @@
 //Prototipo da funcao
 int Soma(int num);
 
-int contador = 0;
-
 int main(){
     int n, sum;           //Declara variável
     printf("\nDigite um inteiro positivo: ");
