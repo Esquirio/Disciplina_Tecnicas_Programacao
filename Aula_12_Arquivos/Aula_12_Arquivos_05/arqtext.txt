@@ -1,0 +1,3 @@
+Ola meus alunos!
+Estamos aprendendo a usar...
+arquivos na linguagem C.
