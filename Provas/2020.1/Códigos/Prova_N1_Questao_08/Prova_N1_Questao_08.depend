@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586726635 source:c:\users\bigode\onedrive\documents\anhembi\prova_n1_questao_08\main.c
+	<unistd.h>
+	<stdio.h>
+	<time.h>
+

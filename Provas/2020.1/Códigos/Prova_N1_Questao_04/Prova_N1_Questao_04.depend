@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586398859 source:c:\users\esqui\onedrive\documents\anhembi\prova_n1_questao_04\main.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+
