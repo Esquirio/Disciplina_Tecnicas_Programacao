@@ -1,15 +1,15 @@
-#include <stdio.h> // Necessário getchar e printf
+#include <stdio.h>  // Necessário getchar e printf
 
 /* Funcão: main() */
-int main(){
-  char ch_01, ch_02; // Declaração de variáveis
+int main() {
+  char ch_01, ch_02;  // Declaração de variáveis
   // Mensagem para o usuário
   printf("Ler primeiro char: ");
-  ch_01 = getchar(); // Ler caractere com getchar()
-  fflush(stdin);     // Limpar buffer de entrada
+  ch_01 = getchar();  // Ler caractere com getchar()
+  fflush(stdin);      // Limpar buffer de entrada
   // Mensagem para o usuário
   printf("Ler segundo char: ");
-  ch_02 = getchar(); // Ler caractere com getchar()
+  ch_02 = getchar();  // Ler caractere com getchar()
 
   // Imprime valor lido na tela
   printf("\n------------------------------\n");
@@ -19,5 +19,4 @@ int main(){
   putchar(ch_02);
   putchar('\n');
   return 0;
-}// Fim da função main()
-
+}  // Fim da função main()

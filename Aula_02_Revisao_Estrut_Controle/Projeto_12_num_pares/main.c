@@ -1,15 +1,13 @@
-#include <stdio.h> // Funções de I/O, etc.
+#include <stdio.h>  // Funções de I/O, etc.
 /* Funcão: main() */
-int main()
-{
-  int num; // Declara variável inteira
+int main() {
+  int num;  // Declara variável inteira
   // Laço de repetição de 0 a 100
-  for(num = 0; num <= 100; num=num+2)
-    printf("%d ", num);
+  for (num = 0; num <= 100; num = num + 2) printf("%d ", num);
 
   printf("\n\n");
   return 0;
-}// Fim da função main()
+}  // Fim da função main()
 
 /*
 // Laço de repetição de 0 a 100

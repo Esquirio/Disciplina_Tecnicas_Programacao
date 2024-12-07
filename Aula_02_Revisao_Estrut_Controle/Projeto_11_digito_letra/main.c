@@ -1,22 +1,21 @@
-#include <stdio.h> // Funções de I/O, etc.
-#include <ctype.h> // Funções isalpha isdigit
+#include <ctype.h>  // Funções isalpha isdigit
+#include <stdio.h>  // Funções de I/O, etc.
 
 /* Funcão: main() */
-int main(){
+int main() {
   char ch = ' ';
   printf("Digite uma tecla: ");
   scanf(" %c", &ch);
 
   // Testa se é letra
-  if(isalpha(ch))
-    printf("Voce digitou uma letra!\n");
+  if (isalpha(ch)) printf("Voce digitou uma letra!\n");
   // Testa se é dígito
-  else if(isdigit(ch))
+  else if (isdigit(ch))
     printf("Voce digitou um digito!\n");
   else
     printf("Nao eh nem letra ou digito!\n");
   return 0;
-}// Fim da função main()
+}  // Fim da função main()
 
 /* Exercício 4A
   // Testa se está na faixa de maiusculas

@@ -1,9 +1,9 @@
-#include <stdio.h> // Funções de I/O, etc.
+#include <stdio.h>  // Funções de I/O, etc.
 /* Funcão: main() */
-int main(){
+int main() {
   int valor;
   // Laço de repetição do Menu
-  do{
+  do {
     printf("***** Exemplo Menu *****\n");
     printf("0 - Cadastro de Clientes\n");
     printf("1 - Consultar de Clientes\n");
@@ -12,7 +12,6 @@ int main(){
     printf("Digite uma opcao: ");
     scanf("%d", &valor);
     printf("\n");
-  }while(valor != 3);
+  } while (valor != 3);
   return 0;
-}// Fim da função main()
-
+}  // Fim da função main()
