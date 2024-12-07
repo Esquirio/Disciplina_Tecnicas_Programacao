@@ -5,4 +5,4 @@ float Converte_Celsius(float fahr);
 
 float Converte_Fahr(float cels);
 
-#endif // CONVERTE_TEMP_H_INCLUDED
+#endif  // CONVERTE_TEMP_H_INCLUDED

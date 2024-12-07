@@ -1,6 +1,5 @@
-#include<stdio.h>
-int main()
-{
+#include <stdio.h>
+int main() {
   int conta = 1;
   float salario = 40000.0;
   char ch = 'a';

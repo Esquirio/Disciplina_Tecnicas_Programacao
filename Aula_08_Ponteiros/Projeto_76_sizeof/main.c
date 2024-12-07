@@ -1,6 +1,6 @@
 #include <stdio.h>
-//Função main()
-int main (){
+// Função main()
+int main() {
   float vteste;
   printf(" --- TIPO ---|--- BYTES ---\n");
   printf(" char .......: %d bytes\n", sizeof(char));
@@ -11,6 +11,5 @@ int main (){
   printf(" double......: %d bytes\n", sizeof(double));
   printf(" long double.: %d bytes\n\n", sizeof(long double));
   printf("\nO tamanho de vteste e': %d \n\n", sizeof(vteste));
-  return(0);
-}// Fim da funcao main()
-
+  return (0);
+}  // Fim da funcao main()

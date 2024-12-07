@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int main(){
-    FILE *pArquivo;
-    char ch = 's';
-    long num_ra;
-    pArquivo = fopen( "arquivo.txt", "r");
+int main() {
+  FILE *pArquivo;
+  char ch = 's';
+  long num_ra;
+  pArquivo = fopen("arquivo.txt", "r");
 
-    //Lê um caractere do arquivo
-    while((ch=fgetc(pArquivo))!=EOF)
-        printf("%c", ch); //Imprime o caractere na tela
-    fclose(pArquivo); //Fecha o arquivo
+  // Lê um caractere do arquivo
+  while ((ch = fgetc(pArquivo)) != EOF)
+    printf("%c", ch);  // Imprime o caractere na tela
+  fclose(pArquivo);    // Fecha o arquivo
 
-    fclose(pArquivo);
+  fclose(pArquivo);
 
-    return 0;
-}//Fim da funcao main()
+  return 0;
+}  // Fim da funcao main()
 
 /*
     fgets(RA, 4, pArquivo);

@@ -1,6 +1,6 @@
-#include <stdio.h> //Funcoes de I/O
+#include <stdio.h>  //Funcoes de I/O
 /* Funcao main() */
-void main(){
+void main() {
   int x, *p;
   x = 10;
   *p = x;

@@ -1,7 +1,6 @@
-#include <stdio.h> //Funcoes de I/O
+#include <stdio.h>  //Funcoes de I/O
 /* Funcao main() */
-int main()
-{
+int main() {
   int y, *p, x;
   y = 0;
   p = &y;
@@ -10,6 +9,6 @@ int main()
   (*p)++;
   x--;
   (*p) += x;
-  printf ("y = %d\n", y);
-  return(0);
+  printf("y = %d\n", y);
+  return (0);
 }
